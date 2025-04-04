@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* Header */
+header {
+  background-color: #D90000;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Hero Section */
+#hero {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.btn {
+  background: #D90000;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #FF0000;
+}
+
+#hero button {
+  background: #D90000;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#hero button:hover {
+  background: #FF0000;
+}
+
+/* Services Section */
+#services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-left: 6px solid #D90000;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* About Page Styling */
+#about {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f8f8f8;
+  text-align: center;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 36px;
+  color: #D90000;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+/* ------------------- About Page Styling ------------------- */
+#about {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f8f8f8;
+  text-align: center;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 36px;
+  color: #D90000;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* ------------------- Footer Styling ------------------- */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+/* ------------------- Contact Page Styling ------------------- */
+#contact {
+  padding: 80px 20px;
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+}
+
+#contact h2 {
+  font-size: 36px;
+  color: #D90000;
+  margin-bottom: 10px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+button {
+  background-color: #D90000;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #b70000;
+}
+/* ------------ Smooth Transitions for Buttons & Links ------------ */
+a, button {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover, a:hover {
+  transform: scale(1.05);
+  background-color: #b70000;
+}
+
+/* ------------ Fade-In Animation on Sections ------------ */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
